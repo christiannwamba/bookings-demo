@@ -1,0 +1,11 @@
+.divider {}
+
+.divider--vertical {
+    border-right: 1px solid rgba(0,0,0,0.05);
+    margin: 0 15px;
+}
+
+.divider--horizontal {
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    margin: 15px 0;
+}

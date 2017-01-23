@@ -1,8 +1,29 @@
 /*--------------------------------------*\
 	Main
 \*--------------------------------------*/
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 html {
-	overflow-y: scroll;
-	min-height: 100%;
+	// overflow-y: scroll;
+	// min-height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+// 	/* fallback */
+//   background-color: #5CC9EA;
+//   background: url(images/linear_bg_2.png);
+//   background-repeat: repeat-x;
+
+//   /* Safari 4-5, Chrome 1-9 */
+//   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#5CC9EA), to(#165577));
 }

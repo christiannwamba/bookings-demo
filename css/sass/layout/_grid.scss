@@ -1,0 +1,29 @@
+// import settings :
+@import 'settings';
+
+// generate classes :
+@include gridle_generate_classes ( );
+
+// manage container width :
+.container {
+    max-width : 100%;
+    margin : 0 auto;
+    // margin-top: 30px;
+    background: red;
+}
+
+div[class^="gr-"]{
+    /*height: 100px;*/
+}
+
+.gr-4{
+    /*background: red;*/
+}
+
+.gr-8{
+    /*background: blue;*/
+}
+
+.gr-12{
+    /*background: yellow;*/
+}

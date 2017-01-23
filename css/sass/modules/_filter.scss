@@ -1,0 +1,35 @@
+.filter {
+    background: $white;
+    border-bottom: 3px solid rgba(0,0,0,0.05);
+    padding-left: 15px;
+
+    label {
+        text-align: center;
+        color: $brand-primary-light;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    button {
+        height: 100%;
+        width: 100%;
+        min-height: 100%;
+    }
+
+    .divider {
+        padding: 30px 0;
+    }
+}
+
+.control--filter {
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    @include border-radius(0);
+
+    &:focus {
+        outline: none;
+        border-bottom: 1px solid rgba(20, 54, 102, 0.7);
+    }
+}

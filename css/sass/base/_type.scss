@@ -1,7 +1,7 @@
 /*--------------------------------------*\
   Type
 \*--------------------------------------*/
-
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 // Headings
 h1, .alpha {
   font-size: $h1-size;
@@ -25,4 +25,8 @@ h5, .epsilon {
 
 h6, .zeta {
   font-size: $h6-size;
+}
+
+body {
+  font-family: $primary-font;
 }

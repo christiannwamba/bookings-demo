@@ -11,9 +11,17 @@
 //--------------------------------------*/
 
 // Brand colours
-$brand-primary:   #111111;
-$brand-secondary: #222222;
-$brand-tertiary:  #333333;
+// $color__primary--light: #DD0000 !default;
+$color__primary: #143666 !default;
+$color-secondary: #0DA0E3 !default;
+$color-tertiary: #FEB902 !default;
+// $color__primary--dark: #990000 !default;
+
+$brand-primary:   $color__primary;
+$brand-secondary: $color-secondary;
+$brand-tertiary: $color-tertiary;
+
+$brand-primary-light: lighten($brand-primary, 5);
 
 // Grays
 $gray-light:      #eeeeee;
@@ -30,12 +38,12 @@ $white:           #fff;
 //--------------------------------------*/
 
 // Define font stacks
-$primary-font:    "Helvetica Neue", Helvetica, Arial, sans-serif;
+$primary-font:    'Titillium Web', sans-serif;;
 $secondary-font:  "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 // Base font sizes
-$base-font-size:    16px!default;
-$base-line-height:  24px!default;
+$base__font-size: 15 !default;
+$base__line: 20 !default;
 
 // Big sizes
 $giga-size:         96px!default;
@@ -61,3 +69,13 @@ $micro-size:        10px!default;
 
 // Border radius
 $global-radius:     6px;
+
+// Clearfix
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+

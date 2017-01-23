@@ -5,9 +5,17 @@
 // Defaults
 @import 'defaults';
 
-// Modules
-@import 'modules/normalize';
-
 // Base
-@import 'base/main';
-@import 'base/type';
+@import 'base/base';
+
+// Layout
+@import 'layout/grid';
+
+// components
+@import 'components/components';
+
+// Modules
+@import 'modules/modules';
+
+// Pages
+@import 'pages/pages';

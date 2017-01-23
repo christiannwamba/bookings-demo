@@ -1,0 +1,7 @@
+.nav--horizontal{
+    .nav__item {
+        float: left;
+        list-style-type: none; 
+    }
+    @include clearfix;
+}

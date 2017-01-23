@@ -5,25 +5,145 @@
   <title>Title</title>
   <meta name="description" content="">
   <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/grunt-project.css">
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 </head>
 <body>
-  <h1>Heading 1</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, obcaecati, numquam dolores ut aliquam dolorum eaque nulla quidem inventore tempore eos maiores error optio autem reiciendis enim dicta harum odit</p>
-  <h2>Heading 2</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, obcaecati, numquam dolores ut aliquam dolorum eaque nulla quidem inventore tempore eos maiores error optio autem reiciendis enim dicta harum odit?</p>
-  <h3>Heading 3</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, obcaecati, numquam dolores ut aliquam dolorum eaque nulla quidem inventore tempore eos maiores error optio autem reiciendis enim dicta harum odit?</p>
-  <h4>Heading 4</h4>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, obcaecati, numquam dolores ut aliquam dolorum eaque nulla quidem inventore tempore eos maiores error optio autem reiciendis enim dicta harum odit?</p>
-  <h5>Heading 5</h5>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, obcaecati, numquam dolores ut aliquam dolorum eaque nulla quidem inventore tempore eos maiores error optio autem reiciendis enim dicta harum odit?</p>
-  <h6>Heading 6</h6>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, obcaecati, numquam dolores ut aliquam dolorum eaque nulla quidem inventore tempore eos maiores error optio autem reiciendis enim dicta harum odit?</p>
+  <div class="container">
 
+    <!-- Banner Module -->
+    <div class="banner">
+      <nav class="banner__nav">
+        <h1 class="banner__title"><a href="">Booking.com</a></h1>
+        <ul class="nav nav--banner nav--horizontal">
+          <li class="nav__item">USD</li>
+          <li class="nav__item">Sign In</li>
+          <li class="nav__item nav__item--button"><button>Register</button></li>
+        </ul>
+      </nav>
+      <div class="banner__jumbotron">
+        <h4>Where to next?</h4>
+        <h2>City of London</h2>
+      </div>
+      <div class="banner__footer">
+        <div class="browse browse--banner">&#9830; Browse 1.702 objects in London, UK</div>
+        <button class="help help--banner">&#9830;</button>
+      </div>
+    </div>
+
+    <!-- Filter Module -->
+    <div class="filter">
+      <form class="form form--horizontal filter__form">
+        <div class="form__item form__item--horizontal">
+          <label for="">Where</label>
+          <input type="text" class="control control--text control--filter">
+        </div>
+
+        <div class="form__item form__item--horizontal">
+          <label for="">When</label>
+          <input type="text" class="control control--text control--filter">
+        </div>
+
+        <div class="form__item form__item--horizontal">
+          <div class="help help--banner">&#9830;</div>
+          <input type="text" class="control control--text control--filter">
+        </div>
+
+        <div class="divider divider--vertical"></div>
+
+        <div class="form__item form__item--horizontal">
+          <label for="">Rooms</label>
+          <select class="control control--select control--filter">
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select>
+        </div>
+
+        <div class="form__item form__item--horizontal">
+          <label for="">Adults</label>
+          <select class="control control--select control--filter">
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select>
+        </div>
+
+        <div class="form__item form__item--horizontal">
+          <label for="">Children</label>
+          <select class="control control--select control--filter">
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select>
+        </div>
+
+        <div class="form__item form__item--horizontal">
+          <label for="">Filters</label>
+          <button type="button">Search</button>
+        </div>
+
+      </form>
+    </div>
+    
+
+    <!-- Destination Module -->
+
+    <div class="destination">
+      <h4 class="destination__title">The best deals worldwide</h4>
+      <h2 class="destination__sub-title">Book Hotels in Top Destinations</h2>
+
+      <div class="destination-content">
+        <div class="cards cards--vertical">
+          <div class="card">
+            <div class="card__image">
+              <img src="img/banner-london.jpeg">
+            </div>
+            <div class="card__content">
+              <h3>Suarsena House</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore et cumque, assumenda debitis n.</p>
+            </div>
+            <div class="card__rating">8.5</div>
+            <div class="card__arrow">&#9830;</div>
+          </div>
+
+          <div class="card">
+            <div class="card__image">
+              <img src="img/banner-london.jpeg">
+            </div>
+            <div class="card__content">
+              <h3>Suarsena House</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore et cumque, assumenda debitis n.</p>
+            </div>
+            <div class="card__rating">8.5</div>
+            <div class="card__arrow">&#9830;</div>
+          </div>
+
+          <div class="card">
+            <div class="card__image">
+              <img src="img/banner-london.jpeg">
+            </div>
+            <div class="card__content">
+              <h3>Suarsena House</h3>
+              <p> menda debitis n.</p>
+            </div>
+            <div class="card__rating">8.5</div>
+            <div class="card__arrow">&#9830;</div>
+          </div>
+        </div>
+
+        <div class="destination-info">
+            <div class="destination-info__content">
+              <h2>Lighthouse</h2>
+              <p>Awesome Adventure in Africa</p>
+            </div>
+            <div class="destination-info__rating">8.5</div>
+            <button class="destination-info__button">3 Rooms Remaining &#9830;</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
   <script src="js/grunt-project.min.js"></script>
 </body>
 </html>
